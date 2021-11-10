@@ -1,0 +1,14 @@
+wx:
+  appid: 
+  appsecret: 
+spring:
+  datasource:
+    username: root
+    password: 13695932659
+    url: jdbc:mysql://localhost:3306/miniprogram?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+server:
+  port: 8080
